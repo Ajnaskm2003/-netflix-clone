@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ContentRow from "./components/ContentRow";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Footer from "./components/Footer";
 
 // Pages
 import MovieDetails from "./pages/MovieDetails";
@@ -84,6 +85,7 @@ function Home() {
           />
         </>
       )}
+      <Footer />
     </>
   );
 }

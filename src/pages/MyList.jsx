@@ -5,6 +5,7 @@ import {
   getWatchlist,
   removeFromWatchlist
 } from "../services/watchlist";
+import Footer from "../components/Footer";
 
 function MyList() {
   const { user } = useAuth();
